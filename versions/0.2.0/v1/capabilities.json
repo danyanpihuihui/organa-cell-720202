@@ -1,0 +1,25 @@
+{
+  "schema_version": "organa-capabilities-v0.1",
+  "coordinate": "720202.bitmap",
+  "role": "research-executor-and-publisher",
+  "accepting_public_tasks": true,
+  "capabilities": [
+    "research-execution",
+    "source-auditing",
+    "report-publishing",
+    "task-receipt-production"
+  ],
+  "submission": {
+    "mode": "manual-review",
+    "instructions": "Publish or reference a non-sensitive task proposal; no credentials or private data.",
+    "states": [
+      "proposed",
+      "authorized",
+      "accepted",
+      "researching",
+      "published",
+      "verified",
+      "accepted-or-rejected"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "organa-registry-v0.2",
+  "coordinate": "720202.bitmap",
+  "registry_type": "agents",
+  "entries": [
+    {
+      "id": "research-executor",
+      "name": "Organa Research Executor",
+      "role": "research-executor",
+      "lifecycle_status": "live",
+      "capabilities": [
+        "public-task-intake",
+        "research-execution",
+        "structured-reporting"
+      ]
+    },
+    {
+      "id": "source-auditor",
+      "name": "Organa Source Auditor",
+      "role": "source-auditor",
+      "lifecycle_status": "live",
+      "capabilities": [
+        "source-manifest-generation",
+        "citation-audit",
+        "fact-assumption-separation"
+      ]
+    },
+    {
+      "id": "receipt-publisher",
+      "name": "Organa Receipt Publisher",
+      "role": "receipt-publisher",
+      "lifecycle_status": "live",
+      "capabilities": [
+        "task-event-recording",
+        "receipt-publishing",
+        "counterparty-linking"
+      ]
+    }
+  ]
+}

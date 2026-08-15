@@ -1,0 +1,16 @@
+{
+  "schema_version": "organa-disclosure-policy-v0.2",
+  "coordinate": "720202.bitmap",
+  "public_package_excludes": [
+    "credentials",
+    "private memory",
+    "raw strategy",
+    "candidate pools",
+    "account data"
+  ],
+  "task_intake_rejects": [
+    "secrets",
+    "private account data",
+    "wallet credentials"
+  ]
+}

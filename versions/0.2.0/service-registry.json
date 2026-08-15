@@ -1,0 +1,38 @@
+{
+  "schema_version": "organa-registry-v0.2",
+  "coordinate": "720202.bitmap",
+  "registry_type": "services",
+  "entries": [
+    {
+      "id": "research-capabilities",
+      "service_type": "capability-discovery",
+      "lifecycle_status": "live",
+      "endpoint_status": "available",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/v1/capabilities.json"
+    },
+    {
+      "id": "public-task-inbox",
+      "service_type": "public-task-intake",
+      "lifecycle_status": "live",
+      "endpoint_status": "manual-review",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/v1/tasks.json",
+      "submission_policy": "public-non-sensitive-tasks-only; manual authorization required"
+    },
+    {
+      "id": "research-index",
+      "service_type": "research-publication",
+      "lifecycle_status": "live",
+      "endpoint_status": "available",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/research/index.json"
+    },
+    {
+      "id": "proof-verifier",
+      "service_type": "artifact-verification",
+      "lifecycle_status": "live",
+      "endpoint_status": "available",
+      "health_url": "https://organa-proof-verifier.onrender.com/health",
+      "openapi_url": "https://organa-proof-verifier.onrender.com/openapi.json",
+      "human_url": "https://organa-proof-verifier.onrender.com/"
+    }
+  ]
+}

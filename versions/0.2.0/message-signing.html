@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>720202.bitmap v0.2.0 Signing</title><style>body{font:16px system-ui;background:#0b0d12;color:#edf3ff;max-width:920px;margin:36px auto;padding:24px}textarea{width:100%;height:410px;background:#121722;color:#fff;border:1px solid #34405a;border-radius:12px;padding:14px}button{font-size:17px;padding:13px 20px;border:0;border-radius:12px;background:#f59a23;font-weight:700;margin:14px 8px 0 0}code{color:#8ec5ff}.warn{color:#ffd27a}.result{word-break:break-all;color:#69e0aa}</style></head><body><h1>720202.bitmap v0.2.0 Controller Signing</h1><p>This page requests only a <b>BIP-322 Simple message signature</b>.</p><p class="warn">It never requests a seed phrase, private key, wallet password, transaction, PSBT, transfer assets, miner fee, or API key.</p><p>Confirm account: <code>bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6</code></p><p>Manifest SHA-256: <code>sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6</code></p><textarea id="message" readonly>Organa Cell Controller Claim v0.1
+Domain: organa-cell-controller-claim
+Bitcoin network: mainnet
+Coordinate: 720202.bitmap
+Controller address: bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6
+Cell manifest: https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json
+Cell manifest SHA-256: sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6
+Schema version: organa-cell-resolution-v0.1
+Version: 0.2.0
+Previous manifest SHA-256: sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7
+Issued at UTC: 2026-08-15T14:46:04.864042+00:00
+Expires at UTC: 2026-08-22T14:46:04.864042+00:00
+
+I attest that this wallet controls the publication authority for this Organa Cell manifest. This signature does not transfer assets, authorize spending, or reveal private Organa data.</textarea><br><button id="open">Open UniSat Message Signing</button><button id="copy">Copy exact message</button><p id="status">Candidate must be publicly verified before signing.</p><p id="result" class="result"></p><script>const expectedAccount="bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6";const message=document.getElementById('message').value;copy.onclick=()=>navigator.clipboard.writeText(message);open.onclick=async()=>{try{if(!window.unisat)throw Error('UniSat provider not detected');const a=await window.unisat.requestAccounts();if(a[0]!==expectedAccount)throw Error('Connected account does not match controller');status.textContent='Account confirmed. Approve the BIP-322 message in UniSat.';const s=await window.unisat.signMessage(message,'bip322-simple');status.textContent='Signature returned. It must now be independently verified.';result.textContent=s;navigator.clipboard.writeText(s).catch(()=>{})}catch(e){status.textContent='Stopped: '+e.message}};</script></body></html>

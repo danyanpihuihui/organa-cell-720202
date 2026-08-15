@@ -1,0 +1,15 @@
+{
+  "schema_version": "organa-proof-index-v0.2",
+  "coordinate": "720202.bitmap",
+  "entries": [
+    {
+      "id": "previous-manifest",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
+      "sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7"
+    },
+    {
+      "id": "candidate-integrity",
+      "verification": "local-passed; public verification required before signing"
+    }
+  ]
+}
