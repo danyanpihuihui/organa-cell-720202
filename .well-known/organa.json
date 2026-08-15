@@ -14,12 +14,14 @@
     "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
     "sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7",
     "version": "0.1.0",
-    "lifecycle_status": "pending"
+    "lifecycle_status": "live"
   },
+  "activation_status": "active",
   "controller_claim": {
-    "status": "pending-user-signature",
-    "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/signature-request.json",
-    "signature_request_sha256": "sha256:7a19778bb5ec8e5431ba4a01ee36aa33b6cc057b1dd0677cf6322f8b357666fc"
+    "status": "signed",
+    "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/controller-claim.json",
+    "sha256": "sha256:3b2cfa1e49db1593c4f8c3d86eb9a1cf6e13f5b2c14de1b4a3a8c4eb317cc7f0",
+    "signature_valid": true
   },
   "registries": {
     "agents": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/agent-registry.json",
