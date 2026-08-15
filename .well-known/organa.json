@@ -22,10 +22,10 @@
     "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/controller-claim.json",
     "sha256": "sha256:3b2cfa1e49db1593c4f8c3d86eb9a1cf6e13f5b2c14de1b4a3a8c4eb317cc7f0",
     "signature_valid": true,
-    "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/signature-request.json",
+    "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/signature-request.json",
     "signature_request_sha256": "sha256:7a19778bb5ec8e5431ba4a01ee36aa33b6cc057b1dd0677cf6322f8b357666fc",
-    "signed_claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/controller-claim.json",
-    "signed_claim_sha256": "sha256:3b2cfa1e49db1593c4f8c3d86eb9a1cf6e13f5b2c14de1b4a3a8c4eb317cc7f0",
+    "signed_claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/controller-claim.json",
+    "signed_claim_sha256": "sha256:868004fcd8b2e2e87af0ae246a64ab730a1622865cda1f81a8ce1bc9f89549f7",
     "signature_method": "BIP-322-simple-message-signature"
   },
   "registries": {
@@ -49,5 +49,9 @@
     "health_url": "https://organa-proof-verifier.onrender.com/health",
     "openapi_url": "https://organa-proof-verifier.onrender.com/openapi.json",
     "cell_verification_url": "https://organa-proof-verifier.onrender.com/v1/cell/720202.bitmap"
-  }
+  },
+  "version": "0.2.0",
+  "lifecycle_status": "live",
+  "organa_cell_manifest": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json",
+  "organa_cell_manifest_sha256": "sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6"
 }

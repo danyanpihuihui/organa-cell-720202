@@ -2,16 +2,16 @@
   "schema_version": "organa-public-index-v0.1",
   "coordinate": "720202.bitmap",
   "cell_role": "research-executor-and-publisher",
-  "generated_at_utc": "2026-08-15T13:02:28.604895+00:00",
+  "generated_at_utc": "2026-08-15T15:16:05.705126+00:00",
   "homepage_url": "https://danyanpihuihui.github.io/organa-cell-720202/",
   "canonical_state": {
     "resolver_url": "https://danyanpihuihui.github.io/organa-cell-720202/.well-known/organa.json",
-    "resolver_sha256": "sha256:9a8d86ac31d16d20b4970af4064e8cb476dcf8606abbbc5434bb0d704f0c4d86",
+    "resolver_sha256": "sha256:fba556efa5227ca3698ed5ef9c37ddfe5a5daf6b8fb919fe09773c9997ab1685",
     "activation_status": "active",
     "current_manifest": {
-      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
-      "sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7",
-      "version": "0.1.0",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json",
+      "sha256": "sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6",
+      "version": "0.2.0",
       "lifecycle_status": "live"
     },
     "state_semantics_url": null
@@ -19,13 +19,13 @@
   "controller_authentication": {
     "status": "signed",
     "signature_valid": true,
-    "claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/controller-claim.json",
-    "claim_sha256": "sha256:3b2cfa1e49db1593c4f8c3d86eb9a1cf6e13f5b2c14de1b4a3a8c4eb317cc7f0"
+    "claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/controller-claim.json",
+    "claim_sha256": "sha256:868004fcd8b2e2e87af0ae246a64ab730a1622865cda1f81a8ce1bc9f89549f7"
   },
   "registries": {
-    "agents": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/agent-registry.json",
-    "services": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/service-registry.json",
-    "proofs": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/proof-index.json"
+    "agents": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/agent-registry.json",
+    "services": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/service-registry.json",
+    "proofs": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/proof-index.json"
   },
   "latest_public_tasks": [
     {
@@ -52,5 +52,8 @@
   "verification_boundary": {
     "what_this_proves": "This index locates the current canonical Cell state, controller-authentication evidence, public registries, and declared public task receipts.",
     "what_this_does_not_prove": "It does not prove private execution details, economic forecasts, task truth beyond published evidence, independent controller ownership, or future outcomes."
-  }
+  },
+  "operational_status_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-status.json",
+  "capabilities_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/capabilities.json",
+  "research_index_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/research/index.json"
 }

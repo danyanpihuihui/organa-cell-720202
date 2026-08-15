@@ -1,0 +1,16 @@
+{
+  "coordinate": "720202.bitmap",
+  "controller_address": "bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6",
+  "bitcoin_network": "mainnet",
+  "cell_manifest_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json",
+  "cell_manifest_sha256": "sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6",
+  "message": "Organa Cell Controller Claim v0.1\nDomain: organa-cell-controller-claim\nBitcoin network: mainnet\nCoordinate: 720202.bitmap\nController address: bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6\nCell manifest: https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json\nCell manifest SHA-256: sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6\nSchema version: organa-cell-resolution-v0.1\nVersion: 0.2.0\nPrevious manifest SHA-256: sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7\nIssued at UTC: 2026-08-15T14:46:04.864042+00:00\nExpires at UTC: 2026-08-22T14:46:04.864042+00:00\n\nI attest that this wallet controls the publication authority for this Organa Cell manifest. This signature does not transfer assets, authorize spending, or reveal private Organa data.",
+  "message_sha256": "sha256:7486dc649191c73bf9b4cc1400ad40fded0f8cf1bd17a78bad9007a407f894c5",
+  "schema_version": "organa-controller-claim-v0.1",
+  "status": "signed",
+  "signature_method": "BIP-322-simple-message-signature",
+  "signature": "AkcwRAIgOBAuWLDlY2zqd3/I44hTCsk6ExOuQ9STIm6ZUjtJy3oCICMUyGL4tx7wzqPx/l2PbsSCLmyuG1rQPOX1r1KR6duqASECrygpk9c6T4B7fGviQEM9q9ZT7oat4WxljMTaYL5jcIk=",
+  "verified": true,
+  "verified_at_utc": "2026-08-15T15:15:35.283743+00:00",
+  "verification_implementation": "bip322-js Verifier.verifySignature"
+}
