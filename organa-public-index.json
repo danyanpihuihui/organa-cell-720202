@@ -2,16 +2,16 @@
   "schema_version": "organa-public-index-v0.1",
   "coordinate": "720202.bitmap",
   "cell_role": "research-executor-and-publisher",
-  "generated_at_utc": "2026-08-15T15:34:14.671774+00:00",
+  "generated_at_utc": "2026-08-15T16:05:46.434922+00:00",
   "homepage_url": "https://danyanpihuihui.github.io/organa-cell-720202/",
   "canonical_state": {
     "resolver_url": "https://danyanpihuihui.github.io/organa-cell-720202/.well-known/organa.json",
-    "resolver_sha256": "sha256:282b4c19345a9d4712db8819110f1c5b5a4593a8ff4a91bcf5f52ac115d23c78",
+    "resolver_sha256": "sha256:31421fcc9121feb3d863712e1337aeff61437114eb47a0f70f2ce2670418ea87",
     "activation_status": "active",
     "current_manifest": {
-      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
-      "sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7",
-      "version": "0.1.0",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/organa-cell.json",
+      "sha256": "sha256:2997b04a7eb65a93aaf4dc2f27abaa733b7367bbc53711d75ec5423447ce3383",
+      "version": "0.3.0",
       "lifecycle_status": "live"
     },
     "state_semantics_url": null
@@ -19,13 +19,13 @@
   "controller_authentication": {
     "status": "signed",
     "signature_valid": true,
-    "claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/controller-claim.json",
-    "claim_sha256": "sha256:3b2cfa1e49db1593c4f8c3d86eb9a1cf6e13f5b2c14de1b4a3a8c4eb317cc7f0"
+    "claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/controller-claim.json",
+    "claim_sha256": "sha256:1076e0fc9490b57e229bdf2f407ba8815aa6c7f7a2a06d9fb262375060f74557"
   },
   "registries": {
-    "agents": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/agent-registry.json",
-    "services": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/service-registry.json",
-    "proofs": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/proof-index.json"
+    "agents": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/agent-registry.json",
+    "services": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/service-registry.json",
+    "proofs": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/proof-index.json"
   },
   "latest_public_tasks": [
     {
@@ -53,16 +53,15 @@
     "what_this_proves": "This index locates the current canonical Cell state, controller-authentication evidence, public registries, and declared public task receipts.",
     "what_this_does_not_prove": "It does not prove private execution details, economic forecasts, task truth beyond published evidence, independent controller ownership, or future outcomes."
   },
-  "operational_status_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-status.json",
-  "capabilities_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/capabilities.json",
-  "research_index_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/research/index.json",
+  "operational_status_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/organa-status.json",
+  "capabilities_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/v1/capabilities.json",
+  "research_index_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/research/index.json",
   "noncanonical_candidates": [
     {
+      "version": "0.2.0",
       "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json",
       "sha256": "sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6",
-      "version": "0.2.0",
-      "status": "rejected-for-canonical-activation",
-      "reason": "The immutable signed candidate is cryptographically authentic but fails the current Organa Cell resolution schema and resource-closure checks. It remains published as historical evidence and is not canonical."
+      "status": "rejected-for-canonical-activation"
     }
   ]
 }
