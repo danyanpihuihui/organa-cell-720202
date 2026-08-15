@@ -21,13 +21,14 @@
 ## Verification boundary
 It does not prove private execution details, economic forecasts, task truth beyond published evidence, independent controller ownership, or future outcomes.
 
-## Machine resources
-- https://danyanpihuihui.github.io/organa-cell-720202/
-- https://danyanpihuihui.github.io/organa-cell-720202/.well-known/organa.json
-- https://danyanpihuihui.github.io/organa-cell-720202/organa-public-index.json
-- https://danyanpihuihui.github.io/organa-cell-720202/organa-ai.jsonld
-- https://danyanpihuihui.github.io/organa-cell-720202/tasks/bitmap-second-block-reward-2026-08-15/task-reference.json
-
 ## MCP tools
 - Organa MCP Server: https://github.com/danyanpihuihui/organa-mcp-server
 - Tools: discover_network, resolve_cell, list_tasks, verify_receipt
+
+## Snapshot versus canonical state
+- Immutable snapshot semantics: https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/snapshot-semantics.json
+- Read canonical signed/active state from the Resolver; pending fields inside v0.1.0 describe the immutable pre-activation snapshot.
+
+## Live service
+- https://organa-proof-verifier.onrender.com/health
+- https://organa-proof-verifier.onrender.com/openapi.json

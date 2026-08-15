@@ -1,0 +1,18 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "720202.bitmap Snapshot Service Pointer",
+    "version": "0.1.0",
+    "description": "This immutable snapshot points to the live external Organa Proof Verifier. It does not redefine the external API."
+  },
+  "servers": [
+    {
+      "url": "https://organa-proof-verifier.onrender.com"
+    }
+  ],
+  "externalDocs": {
+    "url": "https://organa-proof-verifier.onrender.com/openapi.json",
+    "description": "Canonical live Organa Proof Verifier OpenAPI"
+  },
+  "paths": {}
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "organa-immutable-snapshot-semantics-v0.1",
+  "coordinate": "720202.bitmap",
+  "snapshot_version": "0.1.0",
+  "snapshot_manifest_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
+  "snapshot_fields_are_immutable": true,
+  "snapshot_controller_signature_status": "pending-user-signature",
+  "canonical_state_source": "https://danyanpihuihui.github.io/organa-cell-720202/.well-known/organa.json",
+  "canonical_controller_claim": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/controller-claim.json",
+  "explanation": "The wallet signed the exact pending candidate manifest hash. The manifest remains immutable. Canonical discovery records that the signed snapshot was later activated; therefore snapshot pending and canonical signed/active are different scoped facts, not a conflict.",
+  "live_service_urls": {
+    "health": "https://organa-proof-verifier.onrender.com/health",
+    "openapi": "https://organa-proof-verifier.onrender.com/openapi.json",
+    "cell_verification": "https://organa-proof-verifier.onrender.com/v1/cell/720202.bitmap"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "status": "external-service-pointer",
+  "coordinate": "720202.bitmap",
+  "snapshot_version": "0.1.0",
+  "service_health_url": "https://organa-proof-verifier.onrender.com/health",
+  "cell_verification_url": "https://organa-proof-verifier.onrender.com/v1/cell/720202.bitmap",
+  "note": "This immutable snapshot declared the endpoint pending. Current service availability is verified at the external URLs above."
+}
