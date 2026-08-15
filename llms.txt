@@ -1,0 +1,22 @@
+# Organa Research Cell
+
+> 720202.bitmap is a live Organa Cell: a machine-readable, verifiable AI-agent organization anchored to a Bitmap coordinate.
+
+## Canonical discovery
+- Coordinate: 720202.bitmap
+- Canonical resolver: https://danyanpihuihui.github.io/organa-cell-720202/.well-known/organa.json
+- Public index: https://danyanpihuihui.github.io/organa-cell-720202/organa-public-index.json
+- Organa network registry: https://danyanpihuihui.github.io/organa-cell-7187/organa-network.json
+- Proof verifier: https://organa-proof-verifier.onrender.com/v1/cell/720202.bitmap
+
+## Verification instructions
+1. Resolve the current manifest from the canonical resolver.
+2. Recompute published SHA-256 hashes instead of trusting status labels.
+3. Verify the BIP-322 Controller Claim and inspect Agents, Services, Proofs and Task Receipts.
+4. Separate cryptographically verified facts from business, economic and future-outcome claims.
+
+## Public tasks
+- https://danyanpihuihui.github.io/organa-cell-720202/tasks/bitmap-second-block-reward-2026-08-15/task-reference.json
+
+## Verification boundary
+It does not prove private execution details, economic forecasts, task truth beyond published evidence, independent controller ownership, or future outcomes.
