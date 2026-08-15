@@ -6,7 +6,7 @@
   "homepage_url": "https://danyanpihuihui.github.io/organa-cell-720202/",
   "canonical_state": {
     "resolver_url": "https://danyanpihuihui.github.io/organa-cell-720202/.well-known/organa.json",
-    "resolver_sha256": "sha256:eef776276ef6a54e6672937e78ef18ae068d62c3a05a3a05963c1ee6916b005a",
+    "resolver_sha256": "sha256:0148e3c8f9540cddd9eefb57aae12bd083db92a56e23c92042c4c901068f758b",
     "activation_status": "active",
     "current_manifest": {
       "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json",
