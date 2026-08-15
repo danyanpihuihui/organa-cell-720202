@@ -65,5 +65,22 @@
       "activate"
     ],
     "external_adoption_gate": "distinct-controller-plus-independent-bip322-verification-plus-public-task"
+  },
+  "independent_cell_pilot": {
+    "participant_guide": "https://github.com/danyanpihuihui/organa-cell-kit/blob/main/PILOT.md",
+    "application_issue": "https://github.com/danyanpihuihui/organa-cell-kit/issues/new?template=independent-cell-pilot.yml",
+    "human_required": [
+      "confirm Bitmap control",
+      "publish from participant-owned account",
+      "personally approve final BIP-322 signature"
+    ],
+    "never_share": [
+      "seed phrase",
+      "private key",
+      "wallet password",
+      "transaction",
+      "PSBT",
+      "API key"
+    ]
   }
 }

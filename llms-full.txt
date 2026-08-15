@@ -37,3 +37,8 @@ It does not prove private execution details, economic forecasts, task truth beyo
 - Organa Cell Kit: https://github.com/danyanpihuihui/organa-cell-kit
 - Lifecycle: init → build → verify → publish-candidate → sign → activate
 - Independent adoption requires a distinct controller and independently verified BIP-322 claim.
+
+## Independent Cell pilot
+- Participant guide: https://github.com/danyanpihuihui/organa-cell-kit/blob/main/PILOT.md
+- Apply safely: https://github.com/danyanpihuihui/organa-cell-kit/issues/new?template=independent-cell-pilot.yml
+- Never share a seed phrase, private key, wallet password, transaction, PSBT or API key.
