@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "coordinate": "720202.bitmap",
+  "status": "candidate-available",
+  "version": "0.3.0",
+  "scope": "Static candidate endpoints and external verifier links are declared; service business behavior is not verified."
+}

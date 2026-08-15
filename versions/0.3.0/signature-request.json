@@ -1,0 +1,21 @@
+{
+  "schema_version": "organa-controller-signature-request-v0.1",
+  "coordinate": "720202.bitmap",
+  "controller_address": "bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6",
+  "bitcoin_network": "mainnet",
+  "status": "awaiting-user-signature",
+  "signature_method": "BIP-322-simple-message-signature",
+  "message_encoding": "UTF-8",
+  "issued_at_utc": "2026-08-15T15:48:07.151159+00:00",
+  "expires_at_utc": "2026-08-22T15:48:07.151159+00:00",
+  "expiry_policy": {
+    "meaning": "signature-authorization-window",
+    "completed_signature_validity": "A signature completed and published before expires_at_utc remains a valid immutable historical claim after that timestamp.",
+    "late_signature_policy": "A signature first produced after expires_at_utc is not authorized by this request and requires a new manifest version or signature request."
+  },
+  "manifest_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/organa-cell.json",
+  "manifest_sha256": "sha256:2997b04a7eb65a93aaf4dc2f27abaa733b7367bbc53711d75ec5423447ce3383",
+  "message": "Organa Cell Controller Claim v0.1\nDomain: organa-cell-controller-claim\nBitcoin network: mainnet\nCoordinate: 720202.bitmap\nController address: bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6\nCell manifest: https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/organa-cell.json\nCell manifest SHA-256: sha256:2997b04a7eb65a93aaf4dc2f27abaa733b7367bbc53711d75ec5423447ce3383\nSchema version: organa-cell-resolution-v0.1\nVersion: 0.3.0\nPrevious manifest SHA-256: sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7\nIssued at UTC: 2026-08-15T15:48:07.151159+00:00\nExpires at UTC: 2026-08-22T15:48:07.151159+00:00\n\nI attest that this wallet controls the publication authority for this Organa Cell manifest. This signature does not transfer assets, authorize spending, or reveal private Organa data.",
+  "message_sha256": "sha256:ca9856738cf5e6b48259ecd3a6d8ef6e6f10ab263e96ec863371e954b463ef46",
+  "signed_claim_output": "controller-claim.json"
+}

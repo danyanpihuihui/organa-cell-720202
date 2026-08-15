@@ -1,0 +1,28 @@
+{
+  "schema_version": "organa-registry-v0.1",
+  "coordinate": "720202.bitmap",
+  "registry_type": "proofs",
+  "entries": [
+    {
+      "id": "controller-claim",
+      "proof_type": "wallet-signature",
+      "lifecycle_status": "live",
+      "signature_status": "pending-user-signature",
+      "request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/signature-request.json"
+    },
+    {
+      "id": "previous-canonical-manifest",
+      "proof_type": "sha256-manifest-link",
+      "lifecycle_status": "live",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
+      "sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7"
+    },
+    {
+      "id": "cell-resolution-integrity",
+      "proof_type": "sha256-resource-manifest",
+      "lifecycle_status": "live",
+      "verification_status": "production-verifier-required-before-signing",
+      "verification_url": "https://organa-proof-verifier.onrender.com/v1/verify/package"
+    }
+  ]
+}

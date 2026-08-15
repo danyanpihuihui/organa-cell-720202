@@ -1,0 +1,14 @@
+{
+  "schema_version": "organa-cell-resolution-verification-v0.1",
+  "ok": true,
+  "schema_errors": [],
+  "missing_resources": [],
+  "changed_resources": [],
+  "unsafe_resources": [],
+  "cross_reference_errors": [],
+  "agent_continuity_errors": [],
+  "coordinate": "720202.bitmap",
+  "checked_resources": 12,
+  "cell_sha256": "sha256:2997b04a7eb65a93aaf4dc2f27abaa733b7367bbc53711d75ec5423447ce3383",
+  "controller_signature_status": "pending-user-signature"
+}

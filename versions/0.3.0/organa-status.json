@@ -1,0 +1,12 @@
+{
+  "schema_version": "organa-operational-status-v0.1",
+  "coordinate": "720202.bitmap",
+  "operational_status": "candidate-available",
+  "accepting_public_tasks": true,
+  "last_completed_task": "bitmap-second-block-reward-2026-08-15",
+  "current_queue_depth": 0,
+  "candidate_manifest_version": "0.3.0",
+  "canonical_manifest_version": "0.1.0",
+  "activation_status": "awaiting-controller-signature",
+  "updated_at_utc": "2026-08-15T15:48:07.151159+00:00"
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": "organa-cell-resolution-v0.1",
+  "coordinate": "720202.bitmap",
+  "cell_type": "organa-cell",
+  "title": "720202.bitmap — Organa Research Executor and Publisher",
+  "version": "0.3.0",
+  "created_at_utc": "2026-08-15T15:48:07.151159+00:00",
+  "lifecycle_status": "live",
+  "activation_status": "awaiting-controller-signature",
+  "state_semantics": {
+    "lifecycle_status": "declared object lifecycle",
+    "activation_status": "canonical publication activation",
+    "controller_signature_status": "controller authentication state",
+    "canonical_state_source": ".well-known/organa.json"
+  },
+  "status_note": "Public v0.3.0 candidate. Canonical Resolver remains on signed v0.1.0 until production verification and controller authentication both succeed.",
+  "previous_manifest": {
+    "version": "0.1.0",
+    "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
+    "sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7"
+  },
+  "controller": {
+    "address": "bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6",
+    "claim_type": "bitmap-controller-wallet-claim",
+    "signature_status": "pending-user-signature",
+    "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/signature-request.json"
+  },
+  "public_base_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0",
+  "agents": [
+    {
+      "id": "research-executor",
+      "name": "Organa Research Executor",
+      "role": "research-executor",
+      "lifecycle_status": "live",
+      "capabilities": [
+        "public-task-intake",
+        "research-execution",
+        "structured-reporting"
+      ]
+    },
+    {
+      "id": "source-auditor",
+      "name": "Organa Source Auditor",
+      "role": "source-auditor",
+      "lifecycle_status": "live",
+      "capabilities": [
+        "source-manifest-generation",
+        "citation-audit",
+        "fact-assumption-separation"
+      ]
+    },
+    {
+      "id": "receipt-publisher",
+      "name": "Organa Receipt Publisher",
+      "role": "receipt-publisher",
+      "lifecycle_status": "live",
+      "capabilities": [
+        "task-event-recording",
+        "receipt-publishing",
+        "counterparty-linking"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "research-capabilities",
+      "name": "Research Capabilities",
+      "service_type": "capability-discovery",
+      "lifecycle_status": "live",
+      "endpoint_status": "available",
+      "human_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/v1/capabilities.json"
+    },
+    {
+      "id": "public-task-inbox",
+      "name": "Public Task Index",
+      "service_type": "public-task-intake",
+      "lifecycle_status": "live",
+      "endpoint_status": "manual-review",
+      "human_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/v1/tasks.json"
+    },
+    {
+      "id": "research-index",
+      "name": "Research Index",
+      "service_type": "research-publication",
+      "lifecycle_status": "live",
+      "endpoint_status": "available",
+      "human_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/research/index.json"
+    },
+    {
+      "id": "organa-proof-verifier",
+      "name": "Organa Proof Verifier",
+      "service_type": "artifact-verification",
+      "lifecycle_status": "live",
+      "endpoint_status": "available",
+      "health_url": "https://organa-proof-verifier.onrender.com/health",
+      "openapi_url": "https://organa-proof-verifier.onrender.com/openapi.json",
+      "human_url": "https://organa-proof-verifier.onrender.com/"
+    }
+  ],
+  "resources": [
+    {
+      "path": "agent-registry.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/agent-registry.json",
+      "sha256": "sha256:0ece0fcec6062690c933440c0b787eb0e335bc76dba88638577e301b4a56960e"
+    },
+    {
+      "path": "disclosure-policy.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/disclosure-policy.json",
+      "sha256": "sha256:d63a3d7d4c72ec36e6de7b6a6562ff469705e7a2a5f10877de76e258284a361c"
+    },
+    {
+      "path": "health.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/health.json",
+      "sha256": "sha256:5d074409a597eb0ec000a17645dd751b6290ba1be3b7ab3db74c0743ec3e06f6"
+    },
+    {
+      "path": "organa-status.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/organa-status.json",
+      "sha256": "sha256:17c25a8c9b633fd1ae6afbb1c0e14b35ac78dfed49ec32686fdbd0c27b7a8d24"
+    },
+    {
+      "path": "proof-index.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/proof-index.json",
+      "sha256": "sha256:6d77a955f7f1fc932f099bee88d7fffce6712afd1c96f0f7041f562b8c7ea9b4"
+    },
+    {
+      "path": "research/index.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/research/index.json",
+      "sha256": "sha256:6a5de00fc418fe4d7d559891e5cda88ca0bd762cac09a040bf9aaf5032a86a54"
+    },
+    {
+      "path": "schemas/organa-cell-resolution-v0.1.schema.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/schemas/organa-cell-resolution-v0.1.schema.json",
+      "sha256": "sha256:05019df4db6d7375f8e30b87cfd836facf4559a0a45c5e895c635f052e004ecb"
+    },
+    {
+      "path": "schemas/organa-registry-v0.1.schema.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/schemas/organa-registry-v0.1.schema.json",
+      "sha256": "sha256:388163fef1d607a32dd2c99a4c8ccadd95cacd15c1e21344ebb4d0ad0fff8697"
+    },
+    {
+      "path": "service-registry.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/service-registry.json",
+      "sha256": "sha256:aad63d99e7032431b5b059e002fd1423f04eedd93b8a0be62cb01e822daf5c5a"
+    },
+    {
+      "path": "v1/capabilities.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/v1/capabilities.json",
+      "sha256": "sha256:c8f6edcb7d0a53187aad5b2231a2ceb3f54953786fe8062d7bdbeaf5bafee302"
+    },
+    {
+      "path": "v1/research.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/v1/research.json",
+      "sha256": "sha256:6a5de00fc418fe4d7d559891e5cda88ca0bd762cac09a040bf9aaf5032a86a54"
+    },
+    {
+      "path": "v1/tasks.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/v1/tasks.json",
+      "sha256": "sha256:af9a7a65b42db08f5628503f690fac5d915cbed43b664fa909079acb5b2fbc8a"
+    }
+  ],
+  "disclosure_policy_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/disclosure-policy.json",
+  "proof_index_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.3.0/proof-index.json",
+  "machine_instructions": [
+    "Verify every resource SHA-256.",
+    "Require the production Proof Verifier to return ok=true and integrity_valid=true before signing.",
+    "Treat this as non-canonical until the root Resolver points here with a valid signed claim.",
+    "Do not infer business truth or private access from integrity verification."
+  ]
+}
