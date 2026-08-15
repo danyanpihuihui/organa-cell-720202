@@ -20,3 +20,7 @@
 
 ## Verification boundary
 It does not prove private execution details, economic forecasts, task truth beyond published evidence, independent controller ownership, or future outcomes.
+
+## MCP tools
+- Organa MCP Server: https://github.com/danyanpihuihui/organa-mcp-server
+- Tools: discover_network, resolve_cell, list_tasks, verify_receipt

@@ -27,3 +27,7 @@ It does not prove private execution details, economic forecasts, task truth beyo
 - https://danyanpihuihui.github.io/organa-cell-720202/organa-public-index.json
 - https://danyanpihuihui.github.io/organa-cell-720202/organa-ai.jsonld
 - https://danyanpihuihui.github.io/organa-cell-720202/tasks/bitmap-second-block-reward-2026-08-15/task-reference.json
+
+## MCP tools
+- Organa MCP Server: https://github.com/danyanpihuihui/organa-mcp-server
+- Tools: discover_network, resolve_cell, list_tasks, verify_receipt

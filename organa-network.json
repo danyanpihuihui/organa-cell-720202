@@ -41,5 +41,17 @@
   "verification_boundary": {
     "what_this_proves": "This registry provides public discovery pointers to declared Organa Cells and cross-Cell tasks.",
     "what_this_does_not_prove": "Listing does not prove independent controller ownership, business truth, economic outcomes, or private execution correctness."
+  },
+  "machine_interfaces": {
+    "mcp_server_repository": "https://github.com/danyanpihuihui/organa-mcp-server",
+    "mcp_transport": "stdio",
+    "mcp_tools": [
+      "discover_network",
+      "resolve_cell",
+      "list_tasks",
+      "verify_receipt"
+    ],
+    "network_api": "https://organa-proof-verifier.onrender.com/v1/network",
+    "openapi": "https://organa-proof-verifier.onrender.com/openapi.json"
   }
 }
