@@ -1,0 +1,33 @@
+{
+  "schema_version": "organa-registry-v0.1",
+  "coordinate": "720202.bitmap",
+  "registry_type": "agents",
+  "entries": [
+    {
+      "id": "organa-cell-orchestrator",
+      "name": "Organa Cell Orchestrator",
+      "role": "orchestrator",
+      "lifecycle_status": "pending",
+      "authority": {
+        "canonical_state": "organa-cell-manifest",
+        "external_adapter_mutation": false
+      },
+      "capabilities": [
+        "task-routing",
+        "proof-indexing",
+        "disclosure-enforcement"
+      ]
+    },
+    {
+      "id": "organa-proof-verifier-agent",
+      "name": "Organa Proof Verifier",
+      "role": "verifier",
+      "lifecycle_status": "pending",
+      "capabilities": [
+        "schema-validation",
+        "sha256-verification",
+        "registry-cross-checking"
+      ]
+    }
+  ]
+}

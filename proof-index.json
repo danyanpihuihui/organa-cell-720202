@@ -1,0 +1,21 @@
+{
+  "schema_version": "organa-registry-v0.1",
+  "coordinate": "720202.bitmap",
+  "registry_type": "proofs",
+  "entries": [
+    {
+      "id": "controller-claim",
+      "proof_type": "wallet-signature",
+      "lifecycle_status": "pending",
+      "signature_status": "pending-user-signature",
+      "request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/signature-request.json"
+    },
+    {
+      "id": "cell-resolution-integrity",
+      "proof_type": "sha256-resource-manifest",
+      "lifecycle_status": "pending",
+      "verification_status": "passed-local",
+      "verification_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/verification-report.json"
+    }
+  ]
+}

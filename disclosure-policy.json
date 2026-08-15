@@ -1,0 +1,42 @@
+{
+  "schema_version": "organa-disclosure-policy-v0.1",
+  "coordinate": "720202.bitmap",
+  "default_public_level": "L2_METADATA_PROOF",
+  "levels": {
+    "L0_PRIVATE": [
+      "credentials",
+      "raw_strategy",
+      "private_memory",
+      "source_accounts",
+      "candidate_pools"
+    ],
+    "L1_HASH_PROOF": [
+      "private_payload_hash",
+      "timestamp_commitment"
+    ],
+    "L2_METADATA_PROOF": [
+      "task_type",
+      "version",
+      "input_hash",
+      "output_hash",
+      "verification_status"
+    ],
+    "L3_SELECTIVE_REVEAL": [
+      "named_verifier",
+      "scoped_redacted_evidence",
+      "audit_log"
+    ],
+    "L4_PUBLIC_PACKAGE": [
+      "public_manifest",
+      "public_artifacts",
+      "public_verifier_result"
+    ]
+  },
+  "public_package_excludes": [
+    "credentials",
+    "private memory",
+    "raw strategy",
+    "candidate pools",
+    "account data"
+  ]
+}

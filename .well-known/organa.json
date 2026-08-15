@@ -1,0 +1,29 @@
+{
+  "schema_version": "organa-well-known-v0.1",
+  "coordinate": "720202.bitmap",
+  "cell_type": "organa-cell",
+  "state_semantics": {
+    "canonical_state_source": ".well-known/organa.json",
+    "lifecycle_status": "declared object lifecycle",
+    "activation_status": "canonical publication activation",
+    "controller_signature_status": "controller authentication state",
+    "immutable_candidate_manifest": true,
+    "signature_expiry_meaning": "signature-authorization-window"
+  },
+  "current_manifest": {
+    "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
+    "sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7",
+    "version": "0.1.0",
+    "lifecycle_status": "pending"
+  },
+  "controller_claim": {
+    "status": "pending-user-signature",
+    "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/signature-request.json",
+    "signature_request_sha256": "sha256:7a19778bb5ec8e5431ba4a01ee36aa33b6cc057b1dd0677cf6322f8b357666fc"
+  },
+  "registries": {
+    "agents": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/agent-registry.json",
+    "services": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/service-registry.json",
+    "proofs": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/proof-index.json"
+  }
+}

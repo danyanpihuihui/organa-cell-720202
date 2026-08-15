@@ -1,0 +1,103 @@
+{
+  "schema_version": "organa-cell-resolution-v0.1",
+  "coordinate": "720202.bitmap",
+  "cell_type": "organa-cell",
+  "title": "720202.bitmap — Organa Cell",
+  "version": "0.1.0",
+  "created_at_utc": "2026-08-15T10:38:33.041521+00:00",
+  "lifecycle_status": "pending",
+  "state_semantics": {
+    "lifecycle_status": "declared object lifecycle",
+    "activation_status": "canonical publication activation",
+    "controller_signature_status": "controller authentication state",
+    "canonical_state_source": ".well-known/organa.json"
+  },
+  "status_note": "Locally verified candidate awaiting public deployment and controller wallet signature.",
+  "controller": {
+    "address": "bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6",
+    "claim_type": "bitmap-controller-wallet-claim",
+    "signature_status": "pending-user-signature",
+    "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/signature-request.json"
+  },
+  "public_base_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0",
+  "agents": [
+    {
+      "id": "organa-cell-orchestrator",
+      "name": "Organa Cell Orchestrator",
+      "role": "orchestrator",
+      "lifecycle_status": "pending",
+      "authority": {
+        "canonical_state": "organa-cell-manifest",
+        "external_adapter_mutation": false
+      },
+      "capabilities": [
+        "task-routing",
+        "proof-indexing",
+        "disclosure-enforcement"
+      ]
+    },
+    {
+      "id": "organa-proof-verifier-agent",
+      "name": "Organa Proof Verifier",
+      "role": "verifier",
+      "lifecycle_status": "pending",
+      "capabilities": [
+        "schema-validation",
+        "sha256-verification",
+        "registry-cross-checking"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "organa-proof-verifier",
+      "name": "Organa Proof Verifier",
+      "service_type": "artifact-verification",
+      "lifecycle_status": "pending",
+      "endpoint_status": "not-deployed",
+      "health_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/health",
+      "openapi_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/openapi.json",
+      "human_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/",
+      "disclosure_level": "L2_METADATA_PROOF"
+    }
+  ],
+  "resources": [
+    {
+      "path": "agent-registry.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/agent-registry.json",
+      "sha256": "sha256:22c9f79f6cddf67416e42758a036576daf6f801d7b6730ffced4b1d2fc5d7c72"
+    },
+    {
+      "path": "disclosure-policy.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/disclosure-policy.json",
+      "sha256": "sha256:238fc9feb0b9b101f672b08ae1334af07b81715df7569976a10595a8981f34c1"
+    },
+    {
+      "path": "proof-index.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/proof-index.json",
+      "sha256": "sha256:02c283b5639c4a4767d853ab4034c347d6bf332cf753f6d5c241a0a64496e17c"
+    },
+    {
+      "path": "schemas/organa-cell-resolution-v0.1.schema.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/schemas/organa-cell-resolution-v0.1.schema.json",
+      "sha256": "sha256:66e0d9458ab80f075584c5870c165b4ed526f2f7a7999eda042de2d764920f59"
+    },
+    {
+      "path": "schemas/organa-registry-v0.1.schema.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/schemas/organa-registry-v0.1.schema.json",
+      "sha256": "sha256:10eed508d4c49bcba0dbc71d454d403e0865bb60d80106be7d957b36cdbac4bf"
+    },
+    {
+      "path": "service-registry.json",
+      "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/service-registry.json",
+      "sha256": "sha256:afa6f86643cf553762f2c845e1ff7bda6cf3856942e6e4717d34cb1f95722193"
+    }
+  ],
+  "disclosure_policy_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/disclosure-policy.json",
+  "proof_index_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/proof-index.json",
+  "machine_instructions": [
+    "Verify every resource SHA-256 before trusting registry contents.",
+    "Treat pending or simulation entries as non-live capabilities.",
+    "Do not infer access to L0 private assets from public metadata."
+  ]
+}

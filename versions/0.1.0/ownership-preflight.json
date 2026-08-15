@@ -1,0 +1,30 @@
+{
+  "schema_version": "organa-second-cell-ownership-preflight-v0.1",
+  "checked_at_date": "2026-08-15",
+  "coordinate": "720202.bitmap",
+  "claimed_controller_address": "bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6",
+  "inscription": {
+    "id": "6e9111df0bdd619b2c69bdf4c56ebbec6d0d1ac0b1701e70353b6bee0dde5483i0",
+    "number": 13022008,
+    "content": "720202.bitmap",
+    "content_type": "text/plain;charset=utf-8",
+    "genesis_height": 795272,
+    "current_address": "bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6",
+    "current_output": "c3137aed9102cd92adec56a5bbe3ff368679a3a437b3fe383ea8808568459f00:4",
+    "current_satpoint": "c3137aed9102cd92adec56a5bbe3ff368679a3a437b3fe383ea8808568459f00:4:0",
+    "sat": 1936840308994914,
+    "value_sats": 546
+  },
+  "evidence_sources": [
+    "https://ordinals.com/address/bc1qe45ynsz8tkky0nmxfuvjga7z0lwkalfkxkdln6",
+    "https://ordinals.com/content/6e9111df0bdd619b2c69bdf4c56ebbec6d0d1ac0b1701e70353b6bee0dde5483i0",
+    "https://ordinals.com/r/inscription/6e9111df0bdd619b2c69bdf4c56ebbec6d0d1ac0b1701e70353b6bee0dde5483i0"
+  ],
+  "verified_facts": [
+    "The address page currently lists the inscription.",
+    "The inscription content is exactly 720202.bitmap.",
+    "The ord recursive metadata currently reports the same controller address."
+  ],
+  "remaining_activation_proof": "Before activation, the controller must sign the exact final HTTPS manifest URL and SHA-256 using BIP-322 Simple. This preflight does not replace wallet authentication.",
+  "status": "ownership-location-confirmed; controller-signature-pending"
+}
