@@ -25,7 +25,7 @@
     "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/signature-request.json",
     "signature_request_sha256": "sha256:05de8a0712a7bdbc59e3b79aef00f2e98a3b3a2e03397d33d52e422bbdd7a4a7",
     "signed_claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/controller-claim.json",
-    "signed_claim_sha256": "sha256:868004fcd8b2e2e87af0ae246a64ab730a1622865cda1f81a8ce1bc9f89549f7",
+    "signed_claim_sha256": "sha256:cd0e64d3dadf8965e9046ba5b6dc40afedf9315b6df83b2195b6413474746824",
     "signature_method": "BIP-322-simple-message-signature"
   },
   "registries": {
