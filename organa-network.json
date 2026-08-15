@@ -53,5 +53,17 @@
     ],
     "network_api": "https://organa-proof-verifier.onrender.com/v1/network",
     "openapi": "https://organa-proof-verifier.onrender.com/openapi.json"
+  },
+  "cell_kit": {
+    "repository": "https://github.com/danyanpihuihui/organa-cell-kit",
+    "lifecycle": [
+      "init",
+      "build",
+      "verify",
+      "publish-candidate",
+      "sign",
+      "activate"
+    ],
+    "external_adoption_gate": "distinct-controller-plus-independent-bip322-verification-plus-public-task"
   }
 }
