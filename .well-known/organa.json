@@ -11,27 +11,27 @@
     "signature_expiry_meaning": "signature-authorization-window"
   },
   "current_manifest": {
-    "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json",
-    "sha256": "sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6",
-    "version": "0.2.0",
+    "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
+    "sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7",
+    "version": "0.1.0",
     "lifecycle_status": "live"
   },
   "activation_status": "active",
   "controller_claim": {
     "status": "signed",
-    "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/controller-claim.json",
-    "sha256": "sha256:cd0e64d3dadf8965e9046ba5b6dc40afedf9315b6df83b2195b6413474746824",
+    "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/controller-claim.json",
+    "sha256": "sha256:3b2cfa1e49db1593c4f8c3d86eb9a1cf6e13f5b2c14de1b4a3a8c4eb317cc7f0",
     "signature_valid": true,
-    "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/signature-request.json",
-    "signature_request_sha256": "sha256:05de8a0712a7bdbc59e3b79aef00f2e98a3b3a2e03397d33d52e422bbdd7a4a7",
-    "signed_claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/controller-claim.json",
-    "signed_claim_sha256": "sha256:cd0e64d3dadf8965e9046ba5b6dc40afedf9315b6df83b2195b6413474746824",
+    "signature_request_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/signature-request.json",
+    "signature_request_sha256": "sha256:7a19778bb5ec8e5431ba4a01ee36aa33b6cc057b1dd0677cf6322f8b357666fc",
+    "signed_claim_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/controller-claim.json",
+    "signed_claim_sha256": "sha256:3b2cfa1e49db1593c4f8c3d86eb9a1cf6e13f5b2c14de1b4a3a8c4eb317cc7f0",
     "signature_method": "BIP-322-simple-message-signature"
   },
   "registries": {
-    "agents": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/agent-registry.json",
-    "services": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/service-registry.json",
-    "proofs": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/proof-index.json"
+    "agents": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/agent-registry.json",
+    "services": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/service-registry.json",
+    "proofs": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/proof-index.json"
   },
   "public_index": {
     "url": "https://danyanpihuihui.github.io/organa-cell-720202/organa-public-index.json",
@@ -50,8 +50,15 @@
     "openapi_url": "https://organa-proof-verifier.onrender.com/openapi.json",
     "cell_verification_url": "https://organa-proof-verifier.onrender.com/v1/cell/720202.bitmap"
   },
-  "version": "0.2.0",
+  "version": "0.1.0",
   "lifecycle_status": "live",
-  "organa_cell_manifest": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json",
-  "organa_cell_manifest_sha256": "sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6"
+  "organa_cell_manifest": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
+  "organa_cell_manifest_sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7",
+  "candidate_manifest": {
+    "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.2.0/organa-cell.json",
+    "sha256": "sha256:41b041ef5194995ed9826cd08b923306ce1b653d2cb075dace10a9255a6405a6",
+    "version": "0.2.0",
+    "status": "rejected-for-canonical-activation",
+    "reason": "The immutable signed candidate is cryptographically authentic but fails the current Organa Cell resolution schema and resource-closure checks. It remains published as historical evidence and is not canonical."
+  }
 }
