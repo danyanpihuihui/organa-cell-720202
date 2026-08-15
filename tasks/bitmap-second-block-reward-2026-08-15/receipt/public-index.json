@@ -1,0 +1,73 @@
+{
+  "schema_version": "organa-cross-cell-task-public-index-v0.1",
+  "task_id": "bitmap-second-block-reward-2026-08-15",
+  "requester_cell": "7187.bitmap",
+  "executor_cell": "720202.bitmap",
+  "current_state": "accepted",
+  "authorization_signature_valid": true,
+  "receipt_verification": {
+    "schema_version": "organa-task-receipt-verification-v0.1",
+    "ok": true,
+    "current_state": "accepted",
+    "event_count": 5,
+    "head_event_hash": "sha256:ed53c16da31ab97d490a495c960565803cb6a2447256016cfcda4ebe1864e731",
+    "errors": [],
+    "boundary": "Verifies structure, hashes, and state transitions; it does not prove task truth or economic performance."
+  },
+  "files": {
+    "Bitmap_Second_Block_Reward_Research_2026-08-15.md": {
+      "sha256": "sha256:953f30fb0fe9cd56836c4abddf9b6f1db0aaab9582af0962ee9f30a8cf9e9819",
+      "bytes": 20793
+    },
+    "artifact-manifest.json": {
+      "sha256": "sha256:1af5651da2f429f55d76b7a6266954b194510840da84236454be36aef3a793ab",
+      "bytes": 1130
+    },
+    "authorization-claim.json": {
+      "sha256": "sha256:a2e15ffdf760f2b5352886c66cd986f174b6438472a901f2dee3f982c31d52e4",
+      "bytes": 2714
+    },
+    "authorization.json": {
+      "sha256": "sha256:cff5201ec02cf2ce75c1a084efce99553e5638ab021f45602cfc6d23f6d2f714",
+      "bytes": 1351
+    },
+    "candidate-artifact.json": {
+      "sha256": "sha256:b7c20c7d59f1ba6d4317f3e1f65eee494f7c013213a76aa2bf3e7dca83552b98",
+      "bytes": 769
+    },
+    "eas-attestations.json": {
+      "sha256": "sha256:c4b136851cdb8494c83501dac441032d4c0a54d26b564f63114a654f6ab4172a",
+      "bytes": 3158
+    },
+    "erc8004-validation.json": {
+      "sha256": "sha256:c0d43cc3e955bf75b0ee9f082ab982f86780b5e8605032d9158ab4e263ed7554",
+      "bytes": 572
+    },
+    "events.jsonl": {
+      "sha256": "sha256:af6e5f786eea7dace3478b415d9abcad2da4f627b8eae7723c05cf1ef031fb56",
+      "bytes": 2935
+    },
+    "manifest.json": {
+      "sha256": "sha256:afe875fd6d3f2c3fbdb2cff42587cf69c18efdc3187cca3bf4a67436f7b5821e",
+      "bytes": 1400
+    },
+    "signature-request.json": {
+      "sha256": "sha256:c4a0c850248cbef3a2ada9fcbd175e60086d566f57af3c570178494d9363fe71",
+      "bytes": 1878
+    },
+    "source-manifest.json": {
+      "sha256": "sha256:4db792ae4c18925e4af84b855c1bd2ac7af01d6e786111796aecb5d0d4a91d73",
+      "bytes": 6406
+    },
+    "task-spec.json": {
+      "sha256": "sha256:dce69bb8b2c1321ee033d1241cabc688a9dc812f3df26c39a3d8da4decc2865c",
+      "bytes": 1559
+    },
+    "verification-report.json": {
+      "sha256": "sha256:c6cd83d01aa18df5e478da788752bf78fbb42a9d72007a868f5080ca7faa2b5e",
+      "bytes": 363
+    }
+  },
+  "what_this_proves": "7187 signed a retrospective authorization; 720202 published the declared research artifact; hashes and the receipt event chain verify; 7187 accepted the result.",
+  "what_this_does_not_prove": "It does not prove pre-work authorization, independent controllers, economic forecasts, miner adoption, or investment returns."
+}

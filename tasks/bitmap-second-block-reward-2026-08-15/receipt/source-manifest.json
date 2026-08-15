@@ -1,0 +1,136 @@
+{
+  "schema_version": "organa-research-source-manifest-v0.1",
+  "task_id": "bitmap-second-block-reward-2026-08-15",
+  "source_count": 18,
+  "sources": [
+    {
+      "citation_id": 2,
+      "url": "https://docs.ordinals.com/inscriptions.html",
+      "description": "Ordinal Theory Handbook: Inscriptions",
+      "locator_sha256": "sha256:46b62cd6de083c88491ca8b6a0fb601c23c87e55f4df26c3d566695549b68d4f",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 3,
+      "url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0022.mediawiki",
+      "description": "BIP 22 getblocktemplate",
+      "locator_sha256": "sha256:cd6657012fb329f0d0b4a332c6a6f7c1b8a8efa3292021cf510ea9b0147adffe",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 4,
+      "url": "https://developer.bitcoin.org/devguide/mining.html",
+      "description": "Bitcoin Developer Guide: Mining",
+      "locator_sha256": "sha256:d5271fde58f8f665a7347639cfdbf210ee1f4980935a17ee37d4ca1571dd2509",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 5,
+      "url": "https://braiins.com/blog/past-and-future-of-bitcoin-mining-protocols-stratum-v2-overview",
+      "description": "Braiins: Stratum V2 overview",
+      "locator_sha256": "sha256:59f42fe375e431cc9640645d3a1747c955cce950b37d76863c884b5c2d6b5b07",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 6,
+      "url": "https://river.com/learn/what-will-happen-after-all-bitcoin-mined",
+      "description": "River: After all bitcoin are mined",
+      "locator_sha256": "sha256:d3301e1bfe0a2b81f9c2b188df26f7dc00b60ddc1e4b564622b3baf06577bd5a",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 7,
+      "url": "https://api.blockchair.com/bitcoin/stats",
+      "description": "Blockchair Bitcoin network stats",
+      "locator_sha256": "sha256:664eee8145e094907afeb0ebaf9cfce0bbeb838a0184a63985c62fbd479825e7",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 8,
+      "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_market_cap=true&include_24hr_change=true",
+      "description": "CoinGecko Bitcoin price API",
+      "locator_sha256": "sha256:5f3a8a7ff8139c4c18ec97c7369136879dcb4cc80f6f261e9cfc656fe6151008",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 9,
+      "url": "https://ordinals.com/r/inscription/c201fed451c4bc532eee3b7065eb5135ec81f69d2536f9b9b91e37c2155a33dfi0",
+      "description": "Ordinals inscription 961685.bitmap",
+      "locator_sha256": "sha256:82a0757806e24f71cda46f3160a43ba8cc4238d67298c8b2f4092b670e212b07",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 10,
+      "url": "https://blockstream.info/api/tx/c201fed451c4bc532eee3b7065eb5135ec81f69d2536f9b9b91e37c2155a33df",
+      "description": "Blockstream transaction 961685.bitmap",
+      "locator_sha256": "sha256:5df14ea3a671327735e01ce28ef3bf4dd754b069d1c19666d25fb125e79fb3f4",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 12,
+      "url": "https://docs.ordinals.com/overview.html",
+      "description": "Ordinal Theory Handbook: Overview and rarity",
+      "locator_sha256": "sha256:39faabbdd70cba3f54196ca7b32d6d0d9ca29cf41c256a68756c77c03f26d6f8",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 14,
+      "url": "https://api.satflow.com/v1/activity/sales?collectionSlug=bitmap&timeRange=30d&external=false",
+      "description": "Satflow Bitmap sales API",
+      "locator_sha256": "sha256:65bc6a6ae459a8e9c6206308fec5366d27169a49f93d1c877a8d29b3004ae454",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 15,
+      "url": "https://web3.okx.com/priapi/v1/nft/stats/collection/sales?projectId=2462760&chain=0",
+      "description": "OKX Web3 Bitmap sales API",
+      "locator_sha256": "sha256:231a83b939243ad219ba6a2e610e12fd4b036a4498088bf642416e06ee176dd1",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 16,
+      "url": "https://gitbook.bitmap.land/bitmap-theory-whitepaper.md",
+      "description": "Bitmap Theory Whitepaper",
+      "locator_sha256": "sha256:da0f1604f1bc0cb54f6023ff3a43aced9701e34bec9d47035aee6e5b4d5f2c6d",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 18,
+      "url": "https://gitbook.bitmap.land/bitmap-theory-whitepaper/theory.md",
+      "description": "Bitmap Theory Whitepaper: Theory",
+      "locator_sha256": "sha256:4e6e4ce09753e49571f3ab84df5e9ab43c13c3e4834f2355920b8b40e6218001",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 19,
+      "url": "https://stratumprotocol.org/specification/06-job-declaration-protocol",
+      "description": "Stratum V2 Job Declaration Protocol",
+      "locator_sha256": "sha256:d3f6dde039f97ddddfa4759e7458d8a129e3f63dfa14b2356d6c73be794f0f60",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 20,
+      "url": "https://bitcoinops.org/en/topics/out-of-band-fees",
+      "description": "Bitcoin Optech: Out-of-band fees",
+      "locator_sha256": "sha256:d99acd16dc07d2fa7a9f5fe99591a408cfb392be844cdd90294b6fe16a40020a",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 21,
+      "url": "https://gitbook.bitmap.land/readme.md",
+      "description": "Bitmap 101",
+      "locator_sha256": "sha256:604e187de78ac25a482a1fa09857395d46e7e7b866f50a59685f58d915eebddc",
+      "content_snapshot_included": false
+    },
+    {
+      "citation_id": 22,
+      "url": "https://blockstream.info/api/tx/2e87e46cc3c5d888216a06f4e54a347a55acdb95fb34ddf0f00506f0936ca805",
+      "description": "Blockstream prior transaction in rolling Bitmap chain",
+      "locator_sha256": "sha256:f9888a201d08c1d94d64a9eaf2b57af188120fe4382a8e318952d55a0a9ed463",
+      "content_snapshot_included": false
+    }
+  ],
+  "scope_note": "This manifest records the public source locators cited by the accepted report. It does not claim that mutable remote content is frozen unless a content snapshot is explicitly included.",
+  "what_this_proves": "The report declares these source locators and this manifest binds their exact URLs and descriptions.",
+  "what_this_does_not_prove": "It does not prove that every remote source remains unchanged or that every inference in the report is correct."
+}

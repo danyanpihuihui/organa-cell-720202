@@ -1,0 +1,10 @@
+{
+  "schema_version": "organa-erc8004-validation-adapter-v0.1",
+  "agent_registry_reference": "organa:cell:720202.bitmap",
+  "task_id": "bitmap-second-block-reward-2026-08-15",
+  "request_hash": "sha256:dce69bb8b2c1321ee033d1241cabc688a9dc812f3df26c39a3d8da4decc2865c",
+  "evidence_hash": "sha256:b7c20c7d59f1ba6d4317f3e1f65eee494f7c013213a76aa2bf3e7dca83552b98",
+  "validator": "organa-proof-verifier:local-integrity-profile-v0.1",
+  "verdict": "pass",
+  "adapter_note": "Submit through an ERC-8004 Validation Registry client; this file is not a replacement registry."
+}

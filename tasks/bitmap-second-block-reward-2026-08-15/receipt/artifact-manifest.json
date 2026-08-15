@@ -1,0 +1,23 @@
+{
+  "schema_version": "organa-research-artifact-manifest-v0.1",
+  "task_id": "bitmap-second-block-reward-2026-08-15",
+  "artifact": {
+    "name": "Bitmap_矿工第二区块奖励_深度研究_2026-08-15_UTF8_BOM.md",
+    "media_type": "text/markdown",
+    "bytes": 20793,
+    "sha256": "sha256:953f30fb0fe9cd56836c4abddf9b6f1db0aaab9582af0962ee9f30a8cf9e9819",
+    "research_date": "2026-08-15",
+    "language": "zh-CN"
+  },
+  "source_manifest": {
+    "path": "source-manifest.json",
+    "sha256": "sha256:4db792ae4c18925e4af84b855c1bd2ac7af01d6e786111796aecb5d0d4a91d73"
+  },
+  "classification": {
+    "protocol_facts": "Explicitly separated in the report from scenarios and estimates.",
+    "economic_scenarios": "Subjective probability and valuation sensitivities; not protocol facts.",
+    "investment_boundary": "Research hypothesis, not guaranteed return or miner adoption."
+  },
+  "what_this_proves": "The exact report bytes and declared source manifest are bound to this artifact record.",
+  "what_this_does_not_prove": "Hash integrity does not prove economic forecasts, adoption probabilities, or investment outcomes."
+}

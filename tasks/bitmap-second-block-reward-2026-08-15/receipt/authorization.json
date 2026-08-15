@@ -1,0 +1,21 @@
+{
+  "schema_version": "organa-cross-cell-authorization-v0.1",
+  "task_id": "bitmap-second-block-reward-2026-08-15",
+  "requester_cell": "7187.bitmap",
+  "executor_cell": "720202.bitmap",
+  "requester_controller": "bc1p4wz46fk45hp5crm56k4emxelln9tpuc76frn2duumlyecr9ft35qjxmadq",
+  "authorization_status": "awaiting-requester-signature",
+  "retrospective_disclosure": true,
+  "retrospective_note": "The research artifact predates this authorization. This record authorizes its publication, verification, acceptance, and use as the first cross-Cell Organa receipt; it does not claim pre-work authorization.",
+  "task_spec_sha256": "sha256:dce69bb8b2c1321ee033d1241cabc688a9dc812f3df26c39a3d8da4decc2865c",
+  "requester_trust_anchor": {
+    "resolver_url": "https://danyanpihuihui.github.io/organa-cell-7187/.well-known/organa.json",
+    "manifest_sha256": "sha256:e4fbdedc8d4f4ca1b282716b8219cd64b3cff34114b1461493dff39ae44b3452"
+  },
+  "executor_trust_anchor": {
+    "resolver_url": "https://danyanpihuihui.github.io/organa-cell-720202/.well-known/organa.json",
+    "manifest_sha256": "sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7"
+  },
+  "issued_at_utc": "2026-08-15T11:11:32.309134+00:00",
+  "public_base_url": "https://danyanpihuihui.github.io/organa-cell-7187/tasks/bitmap-second-block-reward-2026-08-15/authorization"
+}

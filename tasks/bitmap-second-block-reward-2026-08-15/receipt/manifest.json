@@ -1,0 +1,37 @@
+{
+  "schema_version": "organa-task-receipt-v0.1",
+  "task_id": "bitmap-second-block-reward-2026-08-15",
+  "cell_id": "720202.bitmap",
+  "requester": "organa:cell:7187.bitmap",
+  "executor": "organa:cell:720202.bitmap",
+  "current_state": "accepted",
+  "created_at_utc": "2026-08-15T11:38:51.388186+00:00",
+  "updated_at_utc": "2026-08-15T11:38:51.393049+00:00",
+  "chain_target": {
+    "namespace": "eip155",
+    "chain_id": 8453,
+    "network": "base"
+  },
+  "disclosure_level": "L4_PUBLIC_PACKAGE",
+  "task_spec": {
+    "path": "task-spec.json",
+    "sha256": "sha256:dce69bb8b2c1321ee033d1241cabc688a9dc812f3df26c39a3d8da4decc2865c"
+  },
+  "candidate_artifact": {
+    "path": "candidate-artifact.json",
+    "sha256": "sha256:b7c20c7d59f1ba6d4317f3e1f65eee494f7c013213a76aa2bf3e7dca83552b98"
+  },
+  "validation": {
+    "validator": "organa-proof-verifier:local-integrity-profile-v0.1",
+    "verdict": "pass",
+    "evidence_hash": "sha256:b7c20c7d59f1ba6d4317f3e1f65eee494f7c013213a76aa2bf3e7dca83552b98"
+  },
+  "settlement": null,
+  "event_count": 5,
+  "head_event_hash": "sha256:ed53c16da31ab97d490a495c960565803cb6a2447256016cfcda4ebe1864e731",
+  "interoperability": {
+    "identity": "ERC-8004 reference only; Organa does not replace the registry",
+    "attestation": "EAS-ready payloads; Organa does not replace EAS",
+    "payment": "x402 receipt reference; Organa does not replace x402"
+  }
+}

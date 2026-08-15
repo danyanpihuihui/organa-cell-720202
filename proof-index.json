@@ -16,6 +16,14 @@
       "lifecycle_status": "pending",
       "verification_status": "passed-local",
       "verification_url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/verification-report.json"
+    },
+    {
+      "id": "cross-cell-task-bitmap-second-block-reward-2026-08-15",
+      "proof_type": "organa-cross-cell-task-receipt",
+      "lifecycle_status": "live",
+      "verification_status": "accepted-integrity-verified",
+      "task_reference_url": "https://danyanpihuihui.github.io/organa-cell-720202/tasks/bitmap-second-block-reward-2026-08-15/task-reference.json",
+      "receipt_index_url": "https://danyanpihuihui.github.io/organa-cell-720202/tasks/bitmap-second-block-reward-2026-08-15/receipt/public-index.json"
     }
   ]
 }

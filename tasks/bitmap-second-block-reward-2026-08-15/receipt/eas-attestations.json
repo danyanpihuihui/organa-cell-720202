@@ -1,0 +1,87 @@
+[
+  {
+    "schema": "organa-task-receipt-v0.1",
+    "network": "base",
+    "chain_id": 8453,
+    "recipient": "organa:cell:720202.bitmap",
+    "revocable": true,
+    "data": {
+      "task_id": "bitmap-second-block-reward-2026-08-15",
+      "cell_id": "720202.bitmap",
+      "state": "authorized",
+      "actor": "organa:cell:7187.bitmap",
+      "event_hash": "0x88eacc5849abbef905faa196f29ad64e4031e5462d9648cee9ae1b39c6811f60",
+      "previous_event_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "artifact_hash": null,
+      "disclosure_level": "L4_PUBLIC_PACKAGE"
+    }
+  },
+  {
+    "schema": "organa-task-receipt-v0.1",
+    "network": "base",
+    "chain_id": 8453,
+    "recipient": "organa:cell:720202.bitmap",
+    "revocable": true,
+    "data": {
+      "task_id": "bitmap-second-block-reward-2026-08-15",
+      "cell_id": "720202.bitmap",
+      "state": "executing",
+      "actor": "organa:cell:720202.bitmap",
+      "event_hash": "0x89ccc1cd4d705171edd9fb9f587c389bc1c393b2f8bb35fb65ba80366cb4cca3",
+      "previous_event_hash": "0x88eacc5849abbef905faa196f29ad64e4031e5462d9648cee9ae1b39c6811f60",
+      "artifact_hash": null,
+      "disclosure_level": "L4_PUBLIC_PACKAGE"
+    }
+  },
+  {
+    "schema": "organa-task-receipt-v0.1",
+    "network": "base",
+    "chain_id": 8453,
+    "recipient": "organa:cell:720202.bitmap",
+    "revocable": true,
+    "data": {
+      "task_id": "bitmap-second-block-reward-2026-08-15",
+      "cell_id": "720202.bitmap",
+      "state": "candidate",
+      "actor": "organa:cell:720202.bitmap",
+      "event_hash": "0x019dda184003a161a2e56769c7236e686e5307f9c7b2396565a97b18169b164c",
+      "previous_event_hash": "0x89ccc1cd4d705171edd9fb9f587c389bc1c393b2f8bb35fb65ba80366cb4cca3",
+      "artifact_hash": "sha256:b7c20c7d59f1ba6d4317f3e1f65eee494f7c013213a76aa2bf3e7dca83552b98",
+      "disclosure_level": "L4_PUBLIC_PACKAGE"
+    }
+  },
+  {
+    "schema": "organa-task-receipt-v0.1",
+    "network": "base",
+    "chain_id": 8453,
+    "recipient": "organa:cell:720202.bitmap",
+    "revocable": true,
+    "data": {
+      "task_id": "bitmap-second-block-reward-2026-08-15",
+      "cell_id": "720202.bitmap",
+      "state": "validated",
+      "actor": "organa-proof-verifier:local-integrity-profile-v0.1",
+      "event_hash": "0x5de047641c3fa4b71349daedb54901e2c22f87544759133149c7923c57324758",
+      "previous_event_hash": "0x019dda184003a161a2e56769c7236e686e5307f9c7b2396565a97b18169b164c",
+      "artifact_hash": null,
+      "disclosure_level": "L4_PUBLIC_PACKAGE"
+    }
+  },
+  {
+    "schema": "organa-task-receipt-v0.1",
+    "network": "base",
+    "chain_id": 8453,
+    "recipient": "organa:cell:720202.bitmap",
+    "revocable": true,
+    "data": {
+      "task_id": "bitmap-second-block-reward-2026-08-15",
+      "cell_id": "720202.bitmap",
+      "state": "accepted",
+      "actor": "organa:cell:7187.bitmap",
+      "event_hash": "0xed53c16da31ab97d490a495c960565803cb6a2447256016cfcda4ebe1864e731",
+      "previous_event_hash": "0x5de047641c3fa4b71349daedb54901e2c22f87544759133149c7923c57324758",
+      "artifact_hash": null,
+      "disclosure_level": "L4_PUBLIC_PACKAGE"
+    }
+  }
+]

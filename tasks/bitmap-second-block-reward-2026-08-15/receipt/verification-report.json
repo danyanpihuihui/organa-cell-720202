@@ -1,0 +1,9 @@
+{
+  "schema_version": "organa-task-receipt-verification-v0.1",
+  "ok": true,
+  "current_state": "accepted",
+  "event_count": 5,
+  "head_event_hash": "sha256:ed53c16da31ab97d490a495c960565803cb6a2447256016cfcda4ebe1864e731",
+  "errors": [],
+  "boundary": "Verifies structure, hashes, and state transitions; it does not prove task truth or economic performance."
+}

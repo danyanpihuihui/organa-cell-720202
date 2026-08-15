@@ -1,0 +1,13 @@
+{
+  "schema_version": "organa-cross-cell-signature-request-v0.1",
+  "task_id": "bitmap-second-block-reward-2026-08-15",
+  "controller_address": "bc1p4wz46fk45hp5crm56k4emxelln9tpuc76frn2duumlyecr9ft35qjxmadq",
+  "signature_method": "BIP-322-simple-message-signature",
+  "message_encoding": "UTF-8",
+  "status": "awaiting-user-signature",
+  "issued_at_utc": "2026-08-15T11:11:32.309134+00:00",
+  "expires_at_utc": "2026-08-22T11:11:32.309134+00:00",
+  "message": "Organa Cross-Cell Task Authorization v0.1\nDomain: organa-cross-cell-task-authorization\nBitcoin network: mainnet\nTask ID: bitmap-second-block-reward-2026-08-15\nRequester Cell: 7187.bitmap\nRequester Controller: bc1p4wz46fk45hp5crm56k4emxelln9tpuc76frn2duumlyecr9ft35qjxmadq\nExecutor Cell: 720202.bitmap\nTask Spec SHA-256: sha256:dce69bb8b2c1321ee033d1241cabc688a9dc812f3df26c39a3d8da4decc2865c\nAuthorization Record: https://danyanpihuihui.github.io/organa-cell-7187/tasks/bitmap-second-block-reward-2026-08-15/authorization/authorization.json\nAuthorization SHA-256: sha256:cff5201ec02cf2ce75c1a084efce99553e5638ab021f45602cfc6d23f6d2f714\nRequester Manifest SHA-256: sha256:e4fbdedc8d4f4ca1b282716b8219cd64b3cff34114b1461493dff39ae44b3452\nExecutor Manifest SHA-256: sha256:d210b6f53f656e7eac4c0b1692f6736848513c46303eaa6c4aaa6dbe46d695d7\nIssued at UTC: 2026-08-15T11:11:32.309134+00:00\nExpires at UTC: 2026-08-22T11:11:32.309134+00:00\n\nThis is a retrospective authorization record. The research artifact predates this signature. I authorize its publication, integrity verification, acceptance, and citation as a cross-Cell Organa task. This signature does not transfer assets, authorize spending, or claim that the research conclusions are guaranteed.",
+  "message_sha256": "sha256:99b6dc939d1fa3d4680c9c54eebee887f0d87ae0fb8e017a9a4f0b59a8379c93",
+  "signed_claim_output": "authorization-claim.json"
+}

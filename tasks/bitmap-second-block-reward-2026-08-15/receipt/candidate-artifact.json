@@ -1,0 +1,20 @@
+{
+  "schema_version": "organa-cross-cell-research-candidate-v0.1",
+  "task_id": "bitmap-second-block-reward-2026-08-15",
+  "executor_cell": "720202.bitmap",
+  "artifact_manifest": {
+    "path": "artifact-manifest.json",
+    "sha256": "sha256:1af5651da2f429f55d76b7a6266954b194510840da84236454be36aef3a793ab"
+  },
+  "source_manifest": {
+    "path": "source-manifest.json",
+    "sha256": "sha256:4db792ae4c18925e4af84b855c1bd2ac7af01d6e786111796aecb5d0d4a91d73"
+  },
+  "report": {
+    "name": "Bitmap_矿工第二区块奖励_深度研究_2026-08-15_UTF8_BOM.md",
+    "sha256": "sha256:953f30fb0fe9cd56836c4abddf9b6f1db0aaab9582af0962ee9f30a8cf9e9819",
+    "bytes": 20793
+  },
+  "status": "candidate-produced-retrospectively",
+  "disclosure_level": "L4_PUBLIC_PACKAGE"
+}
