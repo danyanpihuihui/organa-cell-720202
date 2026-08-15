@@ -2,11 +2,11 @@
   "schema_version": "organa-public-index-v0.1",
   "coordinate": "720202.bitmap",
   "cell_role": "research-executor-and-publisher",
-  "generated_at_utc": "2026-08-15T11:46:46.092646+00:00",
+  "generated_at_utc": "2026-08-15T12:08:43.387713+00:00",
   "homepage_url": "https://danyanpihuihui.github.io/organa-cell-720202/",
   "canonical_state": {
     "resolver_url": "https://danyanpihuihui.github.io/organa-cell-720202/.well-known/organa.json",
-    "resolver_sha256": "sha256:ef9fd0434cdfffe81a08abacbfe9b4096c57830b287bbfb1e36ebe2754830499",
+    "resolver_sha256": "sha256:fac7eb68d2d3c7f62bcd44d106822e3345f584410e9ec115179f47933be9eb56",
     "activation_status": "active",
     "current_manifest": {
       "url": "https://danyanpihuihui.github.io/organa-cell-720202/versions/0.1.0/organa-cell.json",
